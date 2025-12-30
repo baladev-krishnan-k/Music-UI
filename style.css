@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: Arial, sans-serif;
+}
+
+.player {
+    width: 300px;
+    background: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.cover img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.info h2 {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.info p {
+    color: #777;
+    font-size: 14px;
+}
+
+.progress-container {
+    width: 100%;
+    height: 6px;
+    background: #ddd;
+    border-radius: 10px;
+    margin: 15px 0 5px;
+    overflow: hidden;
+}
+
+.progress {
+    width: 40%;
+    height: 100%;
+    background: #764ba2;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #666;
+}
+
+.controls {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.controls button {
+    border: none;
+    background: #f1f1f1;
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.controls button:hover {
+    background: #764ba2;
+    color: #fff;
+}
+
+.play {
+    background: #764ba2;
+    color: #fff;
+}
